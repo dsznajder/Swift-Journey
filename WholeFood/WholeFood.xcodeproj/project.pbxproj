@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABB8607025DBC4D3003C3E65 /* WholeFoodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB8606F25DBC4D3003C3E65 /* WholeFoodApp.swift */; };
+		ABB8607225DBC4D3003C3E65 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB8607125DBC4D3003C3E65 /* ContentView.swift */; };
+		ABB8607425DBC4D4003C3E65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB8607325DBC4D4003C3E65 /* Assets.xcassets */; };
+		ABB8607725DBC4D4003C3E65 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB8607625DBC4D4003C3E65 /* Preview Assets.xcassets */; };
+		ABB8608225DBC4D4003C3E65 /* WholeFoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB8608125DBC4D4003C3E65 /* WholeFoodTests.swift */; };
+		ABB8608D25DBC4D4003C3E65 /* WholeFoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB8608C25DBC4D4003C3E65 /* WholeFoodUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABB8607E25DBC4D4003C3E65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABB8606425DBC4D3003C3E65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABB8606B25DBC4D3003C3E65;
+			remoteInfo = WholeFood;
+		};
+		ABB8608925DBC4D4003C3E65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABB8606425DBC4D3003C3E65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABB8606B25DBC4D3003C3E65;
+			remoteInfo = WholeFood;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABB8606C25DBC4D3003C3E65 /* WholeFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WholeFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABB8606F25DBC4D3003C3E65 /* WholeFoodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WholeFoodApp.swift; sourceTree = "<group>"; };
+		ABB8607125DBC4D3003C3E65 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ABB8607325DBC4D4003C3E65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABB8607625DBC4D4003C3E65 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ABB8607825DBC4D4003C3E65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABB8607D25DBC4D4003C3E65 /* WholeFoodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WholeFoodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABB8608125DBC4D4003C3E65 /* WholeFoodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WholeFoodTests.swift; sourceTree = "<group>"; };
+		ABB8608325DBC4D4003C3E65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABB8608825DBC4D4003C3E65 /* WholeFoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WholeFoodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABB8608C25DBC4D4003C3E65 /* WholeFoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WholeFoodUITests.swift; sourceTree = "<group>"; };
+		ABB8608E25DBC4D4003C3E65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABB8606925DBC4D3003C3E65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB8607A25DBC4D4003C3E65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB8608525DBC4D4003C3E65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABB8606325DBC4D3003C3E65 = {
+			isa = PBXGroup;
+			children = (
+				ABB8606E25DBC4D3003C3E65 /* WholeFood */,
+				ABB8608025DBC4D4003C3E65 /* WholeFoodTests */,
+				ABB8608B25DBC4D4003C3E65 /* WholeFoodUITests */,
+				ABB8606D25DBC4D3003C3E65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABB8606D25DBC4D3003C3E65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABB8606C25DBC4D3003C3E65 /* WholeFood.app */,
+				ABB8607D25DBC4D4003C3E65 /* WholeFoodTests.xctest */,
+				ABB8608825DBC4D4003C3E65 /* WholeFoodUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABB8606E25DBC4D3003C3E65 /* WholeFood */ = {
+			isa = PBXGroup;
+			children = (
+				ABB8609F25DBC4F7003C3E65 /* Resources */,
+				ABB860A025DBC50E003C3E65 /* Profile */,
+				ABB8609E25DBC4F0003C3E65 /* Order */,
+				ABB8609D25DBC4E8003C3E65 /* Food */,
+				ABB8606F25DBC4D3003C3E65 /* WholeFoodApp.swift */,
+				ABB8607125DBC4D3003C3E65 /* ContentView.swift */,
+				ABB8607525DBC4D4003C3E65 /* Preview Content */,
+			);
+			path = WholeFood;
+			sourceTree = "<group>";
+		};
+		ABB8607525DBC4D4003C3E65 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ABB8607625DBC4D4003C3E65 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ABB8608025DBC4D4003C3E65 /* WholeFoodTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABB8608125DBC4D4003C3E65 /* WholeFoodTests.swift */,
+				ABB8608325DBC4D4003C3E65 /* Info.plist */,
+			);
+			path = WholeFoodTests;
+			sourceTree = "<group>";
+		};
+		ABB8608B25DBC4D4003C3E65 /* WholeFoodUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ABB8608C25DBC4D4003C3E65 /* WholeFoodUITests.swift */,
+				ABB8608E25DBC4D4003C3E65 /* Info.plist */,
+			);
+			path = WholeFoodUITests;
+			sourceTree = "<group>";
+		};
+		ABB8609D25DBC4E8003C3E65 /* Food */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Food;
+			sourceTree = "<group>";
+		};
+		ABB8609E25DBC4F0003C3E65 /* Order */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Order;
+			sourceTree = "<group>";
+		};
+		ABB8609F25DBC4F7003C3E65 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ABB8607825DBC4D4003C3E65 /* Info.plist */,
+				ABB8607325DBC4D4003C3E65 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		ABB860A025DBC50E003C3E65 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABB8606B25DBC4D3003C3E65 /* WholeFood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABB8609125DBC4D4003C3E65 /* Build configuration list for PBXNativeTarget "WholeFood" */;
+			buildPhases = (
+				ABB8606825DBC4D3003C3E65 /* Sources */,
+				ABB8606925DBC4D3003C3E65 /* Frameworks */,
+				ABB8606A25DBC4D3003C3E65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WholeFood;
+			productName = WholeFood;
+			productReference = ABB8606C25DBC4D3003C3E65 /* WholeFood.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABB8607C25DBC4D4003C3E65 /* WholeFoodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABB8609425DBC4D4003C3E65 /* Build configuration list for PBXNativeTarget "WholeFoodTests" */;
+			buildPhases = (
+				ABB8607925DBC4D4003C3E65 /* Sources */,
+				ABB8607A25DBC4D4003C3E65 /* Frameworks */,
+				ABB8607B25DBC4D4003C3E65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABB8607F25DBC4D4003C3E65 /* PBXTargetDependency */,
+			);
+			name = WholeFoodTests;
+			productName = WholeFoodTests;
+			productReference = ABB8607D25DBC4D4003C3E65 /* WholeFoodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ABB8608725DBC4D4003C3E65 /* WholeFoodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABB8609725DBC4D4003C3E65 /* Build configuration list for PBXNativeTarget "WholeFoodUITests" */;
+			buildPhases = (
+				ABB8608425DBC4D4003C3E65 /* Sources */,
+				ABB8608525DBC4D4003C3E65 /* Frameworks */,
+				ABB8608625DBC4D4003C3E65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABB8608A25DBC4D4003C3E65 /* PBXTargetDependency */,
+			);
+			name = WholeFoodUITests;
+			productName = WholeFoodUITests;
+			productReference = ABB8608825DBC4D4003C3E65 /* WholeFoodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABB8606425DBC4D3003C3E65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					ABB8606B25DBC4D3003C3E65 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					ABB8607C25DBC4D4003C3E65 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = ABB8606B25DBC4D3003C3E65;
+					};
+					ABB8608725DBC4D4003C3E65 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = ABB8606B25DBC4D3003C3E65;
+					};
+				};
+			};
+			buildConfigurationList = ABB8606725DBC4D3003C3E65 /* Build configuration list for PBXProject "WholeFood" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABB8606325DBC4D3003C3E65;
+			productRefGroup = ABB8606D25DBC4D3003C3E65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABB8606B25DBC4D3003C3E65 /* WholeFood */,
+				ABB8607C25DBC4D4003C3E65 /* WholeFoodTests */,
+				ABB8608725DBC4D4003C3E65 /* WholeFoodUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABB8606A25DBC4D3003C3E65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB8607725DBC4D4003C3E65 /* Preview Assets.xcassets in Resources */,
+				ABB8607425DBC4D4003C3E65 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB8607B25DBC4D4003C3E65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB8608625DBC4D4003C3E65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABB8606825DBC4D3003C3E65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB8607225DBC4D3003C3E65 /* ContentView.swift in Sources */,
+				ABB8607025DBC4D3003C3E65 /* WholeFoodApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB8607925DBC4D4003C3E65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB8608225DBC4D4003C3E65 /* WholeFoodTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB8608425DBC4D4003C3E65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB8608D25DBC4D4003C3E65 /* WholeFoodUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABB8607F25DBC4D4003C3E65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABB8606B25DBC4D3003C3E65 /* WholeFood */;
+			targetProxy = ABB8607E25DBC4D4003C3E65 /* PBXContainerItemProxy */;
+		};
+		ABB8608A25DBC4D4003C3E65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABB8606B25DBC4D3003C3E65 /* WholeFood */;
+			targetProxy = ABB8608925DBC4D4003C3E65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ABB8608F25DBC4D4003C3E65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ABB8609025DBC4D4003C3E65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABB8609225DBC4D4003C3E65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WholeFood/Preview Content\"";
+				DEVELOPMENT_TEAM = MX73G22NH8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = WholeFood/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dsznajder.WholeFood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABB8609325DBC4D4003C3E65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WholeFood/Preview Content\"";
+				DEVELOPMENT_TEAM = MX73G22NH8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = WholeFood/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dsznajder.WholeFood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ABB8609525DBC4D4003C3E65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MX73G22NH8;
+				INFOPLIST_FILE = WholeFoodTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dsznajder.WholeFoodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WholeFood.app/WholeFood";
+			};
+			name = Debug;
+		};
+		ABB8609625DBC4D4003C3E65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MX73G22NH8;
+				INFOPLIST_FILE = WholeFoodTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dsznajder.WholeFoodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WholeFood.app/WholeFood";
+			};
+			name = Release;
+		};
+		ABB8609825DBC4D4003C3E65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MX73G22NH8;
+				INFOPLIST_FILE = WholeFoodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dsznajder.WholeFoodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WholeFood;
+			};
+			name = Debug;
+		};
+		ABB8609925DBC4D4003C3E65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MX73G22NH8;
+				INFOPLIST_FILE = WholeFoodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dsznajder.WholeFoodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WholeFood;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABB8606725DBC4D3003C3E65 /* Build configuration list for PBXProject "WholeFood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB8608F25DBC4D4003C3E65 /* Debug */,
+				ABB8609025DBC4D4003C3E65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABB8609125DBC4D4003C3E65 /* Build configuration list for PBXNativeTarget "WholeFood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB8609225DBC4D4003C3E65 /* Debug */,
+				ABB8609325DBC4D4003C3E65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABB8609425DBC4D4003C3E65 /* Build configuration list for PBXNativeTarget "WholeFoodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB8609525DBC4D4003C3E65 /* Debug */,
+				ABB8609625DBC4D4003C3E65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABB8609725DBC4D4003C3E65 /* Build configuration list for PBXNativeTarget "WholeFoodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB8609825DBC4D4003C3E65 /* Debug */,
+				ABB8609925DBC4D4003C3E65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABB8606425DBC4D3003C3E65 /* Project object */;
+}
