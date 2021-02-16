@@ -8,11 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		ABB8607025DBC4D3003C3E65 /* WholeFoodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB8606F25DBC4D3003C3E65 /* WholeFoodApp.swift */; };
-		ABB8607225DBC4D3003C3E65 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB8607125DBC4D3003C3E65 /* ContentView.swift */; };
+		ABB8607225DBC4D3003C3E65 /* WholeFoodTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB8607125DBC4D3003C3E65 /* WholeFoodTabView.swift */; };
 		ABB8607425DBC4D4003C3E65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB8607325DBC4D4003C3E65 /* Assets.xcassets */; };
 		ABB8607725DBC4D4003C3E65 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB8607625DBC4D4003C3E65 /* Preview Assets.xcassets */; };
 		ABB8608225DBC4D4003C3E65 /* WholeFoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB8608125DBC4D4003C3E65 /* WholeFoodTests.swift */; };
 		ABB8608D25DBC4D4003C3E65 /* WholeFoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB8608C25DBC4D4003C3E65 /* WholeFoodUITests.swift */; };
+		ABB860A925DBC5F1003C3E65 /* Color+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB860A825DBC5F1003C3E65 /* Color+ext.swift */; };
+		ABB860B125DBC6DA003C3E65 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB860B025DBC6DA003C3E65 /* ProfileView.swift */; };
+		ABB860B625DBC6E2003C3E65 /* FoodListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB860B525DBC6E2003C3E65 /* FoodListView.swift */; };
+		ABB860BB25DBC6F0003C3E65 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB860BA25DBC6F0003C3E65 /* OrderView.swift */; };
+		ABB860C025DBC91B003C3E65 /* FoodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB860BF25DBC91B003C3E65 /* FoodModel.swift */; };
+		ABB860C625DBC9D2003C3E65 /* FakeFoodService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB860C525DBC9D2003C3E65 /* FakeFoodService.swift */; };
+		ABB860D125DBCA99003C3E65 /* FoodService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB860D025DBCA99003C3E65 /* FoodService.swift */; };
+		ABB860DC25DBCC04003C3E65 /* FoodListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB860DB25DBCC04003C3E65 /* FoodListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +43,7 @@
 /* Begin PBXFileReference section */
 		ABB8606C25DBC4D3003C3E65 /* WholeFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WholeFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABB8606F25DBC4D3003C3E65 /* WholeFoodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WholeFoodApp.swift; sourceTree = "<group>"; };
-		ABB8607125DBC4D3003C3E65 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ABB8607125DBC4D3003C3E65 /* WholeFoodTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WholeFoodTabView.swift; sourceTree = "<group>"; };
 		ABB8607325DBC4D4003C3E65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABB8607625DBC4D4003C3E65 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ABB8607825DBC4D4003C3E65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +53,14 @@
 		ABB8608825DBC4D4003C3E65 /* WholeFoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WholeFoodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABB8608C25DBC4D4003C3E65 /* WholeFoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WholeFoodUITests.swift; sourceTree = "<group>"; };
 		ABB8608E25DBC4D4003C3E65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABB860A825DBC5F1003C3E65 /* Color+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+ext.swift"; sourceTree = "<group>"; };
+		ABB860B025DBC6DA003C3E65 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		ABB860B525DBC6E2003C3E65 /* FoodListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListView.swift; sourceTree = "<group>"; };
+		ABB860BA25DBC6F0003C3E65 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		ABB860BF25DBC91B003C3E65 /* FoodModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodModel.swift; sourceTree = "<group>"; };
+		ABB860C525DBC9D2003C3E65 /* FakeFoodService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeFoodService.swift; sourceTree = "<group>"; };
+		ABB860D025DBCA99003C3E65 /* FoodService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodService.swift; sourceTree = "<group>"; };
+		ABB860DB25DBCC04003C3E65 /* FoodListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,11 +112,13 @@
 			isa = PBXGroup;
 			children = (
 				ABB8609F25DBC4F7003C3E65 /* Resources */,
+				ABB860C425DBC9C1003C3E65 /* Model */,
+				ABB860A725DBC5E6003C3E65 /* Common */,
 				ABB860A025DBC50E003C3E65 /* Profile */,
 				ABB8609E25DBC4F0003C3E65 /* Order */,
 				ABB8609D25DBC4E8003C3E65 /* Food */,
 				ABB8606F25DBC4D3003C3E65 /* WholeFoodApp.swift */,
-				ABB8607125DBC4D3003C3E65 /* ContentView.swift */,
+				ABB8607125DBC4D3003C3E65 /* WholeFoodTabView.swift */,
 				ABB8607525DBC4D4003C3E65 /* Preview Content */,
 			);
 			path = WholeFood;
@@ -135,6 +153,8 @@
 		ABB8609D25DBC4E8003C3E65 /* Food */ = {
 			isa = PBXGroup;
 			children = (
+				ABB860DB25DBCC04003C3E65 /* FoodListViewModel.swift */,
+				ABB860B525DBC6E2003C3E65 /* FoodListView.swift */,
 			);
 			path = Food;
 			sourceTree = "<group>";
@@ -142,6 +162,7 @@
 		ABB8609E25DBC4F0003C3E65 /* Order */ = {
 			isa = PBXGroup;
 			children = (
+				ABB860BA25DBC6F0003C3E65 /* OrderView.swift */,
 			);
 			path = Order;
 			sourceTree = "<group>";
@@ -158,8 +179,27 @@
 		ABB860A025DBC50E003C3E65 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				ABB860B025DBC6DA003C3E65 /* ProfileView.swift */,
 			);
 			path = Profile;
+			sourceTree = "<group>";
+		};
+		ABB860A725DBC5E6003C3E65 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				ABB860A825DBC5F1003C3E65 /* Color+ext.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		ABB860C425DBC9C1003C3E65 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ABB860C525DBC9D2003C3E65 /* FakeFoodService.swift */,
+				ABB860BF25DBC91B003C3E65 /* FoodModel.swift */,
+				ABB860D025DBCA99003C3E65 /* FoodService.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,8 +331,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABB8607225DBC4D3003C3E65 /* ContentView.swift in Sources */,
+				ABB860B625DBC6E2003C3E65 /* FoodListView.swift in Sources */,
+				ABB860B125DBC6DA003C3E65 /* ProfileView.swift in Sources */,
+				ABB860DC25DBCC04003C3E65 /* FoodListViewModel.swift in Sources */,
+				ABB860C625DBC9D2003C3E65 /* FakeFoodService.swift in Sources */,
+				ABB8607225DBC4D3003C3E65 /* WholeFoodTabView.swift in Sources */,
+				ABB860D125DBCA99003C3E65 /* FoodService.swift in Sources */,
+				ABB860BB25DBC6F0003C3E65 /* OrderView.swift in Sources */,
 				ABB8607025DBC4D3003C3E65 /* WholeFoodApp.swift in Sources */,
+				ABB860A925DBC5F1003C3E65 /* Color+ext.swift in Sources */,
+				ABB860C025DBC91B003C3E65 /* FoodModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
