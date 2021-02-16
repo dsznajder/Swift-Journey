@@ -14,8 +14,7 @@ struct FoodCardView: View {
     
     var body: some View {
         VStack {
-            Image(viewModel.imageUrl)
-                .resizable()
+            FoodImage(urlString: viewModel.imageUrl)
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 300, height: 200)
 
@@ -45,6 +44,7 @@ struct FoodCardView: View {
         }
         .background(Color(.systemBackground))
         .shadow(radius: 10)
+        .clipped()
         .overlay(Button { isVisible = false }
                     label: {
                         ZStack {
@@ -64,7 +64,7 @@ struct FoodCardView: View {
 struct FoodCardView_Previews: PreviewProvider {
     static var previews: some View {
         FoodCardView(
-            viewModel: FoodViewModel(id: 1, name: "Asparagus Steak", description: "Stejki", price: 12.21, imageUrl: "asparagus-steak"),
+            viewModel: FoodViewModel(id: 1, name: "Asparagus Steak", description: "Stejki", price: 12.21, imageUrl: "https://github.com/landrzejewski/best-food-swiftui/blob/main/extras/images/asparagus-steak.png?raw=true"),
             isVisible: .constant(true)
         )
     }

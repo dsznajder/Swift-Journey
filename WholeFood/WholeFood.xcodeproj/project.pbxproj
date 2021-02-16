@@ -27,6 +27,12 @@
 		ABC7F00B25DBE0310036582D /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC7F00A25DBE0310036582D /* ActivityIndicatorView.swift */; };
 		ABC7F01625DBE1450036582D /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC7F01525DBE1450036582D /* LoadingView.swift */; };
 		ABC7F01E25DBE5120036582D /* OrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC7F01D25DBE5120036582D /* OrderViewModel.swift */; };
+		ABC7F02325DBF73C0036582D /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC7F02225DBF73C0036582D /* ProfileViewModel.swift */; };
+		ABC7F02825DBFB6D0036582D /* EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC7F02725DBFB6D0036582D /* EmptyView.swift */; };
+		ABC7F02D25DBFD230036582D /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC7F02C25DBFD230036582D /* ImageLoader.swift */; };
+		ABC7F03225DBFFBB0036582D /* RemoteImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC7F03125DBFFBB0036582D /* RemoteImageViewModel.swift */; };
+		ABC7F03725DC01560036582D /* RemoteImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC7F03625DC01560036582D /* RemoteImageView.swift */; };
+		ABC7F03C25DC02D60036582D /* FoodImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC7F03B25DC02D60036582D /* FoodImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +79,12 @@
 		ABC7F00A25DBE0310036582D /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorView.swift; sourceTree = "<group>"; };
 		ABC7F01525DBE1450036582D /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		ABC7F01D25DBE5120036582D /* OrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewModel.swift; sourceTree = "<group>"; };
+		ABC7F02225DBF73C0036582D /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		ABC7F02725DBFB6D0036582D /* EmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyView.swift; sourceTree = "<group>"; };
+		ABC7F02C25DBFD230036582D /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		ABC7F03125DBFFBB0036582D /* RemoteImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImageViewModel.swift; sourceTree = "<group>"; };
+		ABC7F03625DC01560036582D /* RemoteImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImageView.swift; sourceTree = "<group>"; };
+		ABC7F03B25DC02D60036582D /* FoodImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +182,7 @@
 				ABB860E825DBCE72003C3E65 /* FoodViewModel.swift */,
 				ABB860E325DBCE22003C3E65 /* FoodView.swift */,
 				ABB860F025DBD90B003C3E65 /* FoodCardView.swift */,
+				ABC7F03B25DC02D60036582D /* FoodImage.swift */,
 			);
 			path = Food;
 			sourceTree = "<group>";
@@ -196,6 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				ABB860B025DBC6DA003C3E65 /* ProfileView.swift */,
+				ABC7F02225DBF73C0036582D /* ProfileViewModel.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -206,6 +220,10 @@
 				ABB860A825DBC5F1003C3E65 /* Color+ext.swift */,
 				ABC7F00A25DBE0310036582D /* ActivityIndicatorView.swift */,
 				ABC7F01525DBE1450036582D /* LoadingView.swift */,
+				ABC7F02725DBFB6D0036582D /* EmptyView.swift */,
+				ABC7F02C25DBFD230036582D /* ImageLoader.swift */,
+				ABC7F03125DBFFBB0036582D /* RemoteImageViewModel.swift */,
+				ABC7F03625DC01560036582D /* RemoteImageView.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -352,16 +370,22 @@
 				ABB860B625DBC6E2003C3E65 /* FoodListView.swift in Sources */,
 				ABB860F125DBD90B003C3E65 /* FoodCardView.swift in Sources */,
 				ABB860B125DBC6DA003C3E65 /* ProfileView.swift in Sources */,
+				ABC7F03C25DC02D60036582D /* FoodImage.swift in Sources */,
 				ABB860E925DBCE72003C3E65 /* FoodViewModel.swift in Sources */,
 				ABB860DC25DBCC04003C3E65 /* FoodListViewModel.swift in Sources */,
 				ABB860E425DBCE22003C3E65 /* FoodView.swift in Sources */,
 				ABB860C625DBC9D2003C3E65 /* FakeFoodService.swift in Sources */,
 				ABC7F01E25DBE5120036582D /* OrderViewModel.swift in Sources */,
 				ABB8607225DBC4D3003C3E65 /* WholeFoodTabView.swift in Sources */,
+				ABC7F02D25DBFD230036582D /* ImageLoader.swift in Sources */,
 				ABC7F01625DBE1450036582D /* LoadingView.swift in Sources */,
+				ABC7F02825DBFB6D0036582D /* EmptyView.swift in Sources */,
 				ABB860D125DBCA99003C3E65 /* FoodService.swift in Sources */,
+				ABC7F03725DC01560036582D /* RemoteImageView.swift in Sources */,
 				ABC7F00B25DBE0310036582D /* ActivityIndicatorView.swift in Sources */,
 				ABB860BB25DBC6F0003C3E65 /* OrderView.swift in Sources */,
+				ABC7F02325DBF73C0036582D /* ProfileViewModel.swift in Sources */,
+				ABC7F03225DBFFBB0036582D /* RemoteImageViewModel.swift in Sources */,
 				ABB8607025DBC4D3003C3E65 /* WholeFoodApp.swift in Sources */,
 				ABB860A925DBC5F1003C3E65 /* Color+ext.swift in Sources */,
 				ABB860C025DBC91B003C3E65 /* FoodModel.swift in Sources */,

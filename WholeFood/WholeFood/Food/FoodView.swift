@@ -13,8 +13,7 @@ struct FoodView: View {
     
     var body: some View {
         HStack {
-            Image(viewModel.imageUrl)
-                .resizable()
+            FoodImage(urlString: viewModel.imageUrl)
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 120, height: 80)
                 .cornerRadius(10)
@@ -38,6 +37,6 @@ struct FoodView: View {
 
 struct FoodView_Previews: PreviewProvider {
     static var previews: some View {
-        FoodView(viewModel: FoodViewModel(id: 1, name: "Asparagus Steak", description: "Stejki", price: 12.21, imageUrl: "asparagus-steak"))
+        FoodView(viewModel: FoodViewModel(id: 1, name: "Asparagus Steak", description: "Stejki", price: 12.21, imageUrl: "https://github.com/landrzejewski/best-food-swiftui/blob/main/extras/images/asparagus-steak.png?raw=true"))
     }
 }

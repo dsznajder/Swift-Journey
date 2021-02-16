@@ -8,13 +8,40 @@
 import SwiftUI
 
 struct ProfileView: View {
+    
+    @ObservedObject var viewModel: ProfileViewModel
+    
     var body: some View {
-        Text("Profile List View")
+        Form {
+            Section(header: Text("Personal info")) {
+                TextField("First name", text: $viewModel.firstName)
+                TextField("Last name", text: $viewModel.lastName)
+                TextField("Email", text: $viewModel.email)
+                    .keyboardType(.emailAddress)
+                    .autocapitalization(.none)
+                    .disableAutocorrection(true)
+                
+                DatePicker("Birthday", selection: $viewModel.birthday, displayedComponents: .date)
+                Toggle("Subscribe", isOn: $viewModel.subscriber)
+                    .toggleStyle(SwitchToggleStyle(tint: .primary))
+            }
+            
+            if viewModel.subscriber {
+                Section(header: Text("Payment Info")) {
+                    TextField("Card Number", text: $viewModel.cardNumber)
+                        .keyboardType(.numberPad)
+                    TextField("CVV", text: $viewModel.cvv)
+                    
+                    DatePicker("Expiration Date", selection: $viewModel.cardExpirationDate, displayedComponents: .date)
+                }
+            }
+            
+        }
     }
 }
 
 struct ProfileView_Previews: PreviewProvider {
     static var previews: some View {
-        ProfileView()
+        ProfileView(viewModel: ProfileViewModel())
     }
 }

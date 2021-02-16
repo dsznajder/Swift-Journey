@@ -13,32 +13,38 @@ struct OrderView: View {
     
     var body: some View {
         NavigationView {
-            VStack {
-                List {
-                    ForEach(viewModel.items) { item in
-                        HStack {
-                            Text(item.name)
-                            Spacer()
-                            Text(item.priceText)
+            ZStack {
+                VStack {
+                    List {
+                        ForEach(viewModel.items) { item in
+                            HStack {
+                                Text(item.name)
+                                Spacer()
+                                Text(item.priceText)
+                            }
                         }
+                        .onDelete(perform: viewModel.removeItem)
                     }
-                    .onDelete(perform: viewModel.removeItem)
+                    
+                    Spacer()
+                    Button {
+                        print("Ok")
+                    } label: {
+                        Text("Place order - \(viewModel.totalValue)")
+                            .fontWeight(.bold)
+                            .frame(width: 250, height: 40)
+                            .foregroundColor(.white)
+                            .background(Color("primary"))
+                    }
+                    .cornerRadius(10)
+                    .padding()
                 }
+                .navigationTitle("Order")
                 
-                Spacer()
-                Button {
-                    print("Ok")
-                } label: {
-                    Text("Place order - \(viewModel.totalValue)")
-                        .fontWeight(.bold)
-                        .frame(width: 250, height: 40)
-                        .foregroundColor(.white)
-                        .background(Color("primary"))
+                if viewModel.items.isEmpty {
+                    EmptyView(imageName: "cart", message: "No items")
                 }
-                .cornerRadius(10)
-                .padding()
             }
-            .navigationTitle("Order")
         }
     }
 }
