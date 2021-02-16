@@ -35,6 +35,6 @@ struct FoodListView: View {
 
 struct FoodListView_Previews: PreviewProvider {
     static var previews: some View {
-        FoodListView(viewModel: FoodListViewModel())
+        FoodListView(viewModel: FoodListViewModel(foodService: HttpFoodService()))
     }
 }

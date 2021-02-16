@@ -33,6 +33,7 @@
 		ABC7F03225DBFFBB0036582D /* RemoteImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC7F03125DBFFBB0036582D /* RemoteImageViewModel.swift */; };
 		ABC7F03725DC01560036582D /* RemoteImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC7F03625DC01560036582D /* RemoteImageView.swift */; };
 		ABC7F03C25DC02D60036582D /* FoodImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC7F03B25DC02D60036582D /* FoodImage.swift */; };
+		ABC7F06025DC0DAB0036582D /* HttpFoodService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC7F05F25DC0DAB0036582D /* HttpFoodService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +86,7 @@
 		ABC7F03125DBFFBB0036582D /* RemoteImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImageViewModel.swift; sourceTree = "<group>"; };
 		ABC7F03625DC01560036582D /* RemoteImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImageView.swift; sourceTree = "<group>"; };
 		ABC7F03B25DC02D60036582D /* FoodImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodImage.swift; sourceTree = "<group>"; };
+		ABC7F05F25DC0DAB0036582D /* HttpFoodService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpFoodService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -234,6 +236,7 @@
 				ABB860C525DBC9D2003C3E65 /* FakeFoodService.swift */,
 				ABB860BF25DBC91B003C3E65 /* FoodModel.swift */,
 				ABB860D025DBCA99003C3E65 /* FoodService.swift */,
+				ABC7F05F25DC0DAB0036582D /* HttpFoodService.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -367,6 +370,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABC7F06025DC0DAB0036582D /* HttpFoodService.swift in Sources */,
 				ABB860B625DBC6E2003C3E65 /* FoodListView.swift in Sources */,
 				ABB860F125DBD90B003C3E65 /* FoodCardView.swift in Sources */,
 				ABB860B125DBC6DA003C3E65 /* ProfileView.swift in Sources */,

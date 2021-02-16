@@ -15,10 +15,8 @@ final class OrderViewModel: ObservableObject {
     ]
     
     var totalValue: String { "\(items.reduce(0) { $0 + $1.price }) zł" }
-    
-    
+
     func removeItem(with indexSet: IndexSet) {
         items.remove(atOffsets: indexSet)
     }
-    
 }
