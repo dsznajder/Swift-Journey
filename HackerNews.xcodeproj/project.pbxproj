@@ -18,6 +18,7 @@
 		ABBAB7EA25DBAC4300C171F8 /* FakeHackerNewsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBAB7E925DBAC4300C171F8 /* FakeHackerNewsService.swift */; };
 		ABBAB7FB25DBADA300C171F8 /* HackerNewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBAB7FA25DBADA300C171F8 /* HackerNewsViewModel.swift */; };
 		ABBAB80025DBB37B00C171F8 /* HttpHackerNewsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBAB7FF25DBB37B00C171F8 /* HttpHackerNewsService.swift */; };
+		ABBAB80925DBC07600C171F8 /* TimeBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBAB80825DBC07600C171F8 /* TimeBadgeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		ABBAB7E925DBAC4300C171F8 /* FakeHackerNewsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeHackerNewsService.swift; sourceTree = "<group>"; };
 		ABBAB7FA25DBADA300C171F8 /* HackerNewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackerNewsViewModel.swift; sourceTree = "<group>"; };
 		ABBAB7FF25DBB37B00C171F8 /* HttpHackerNewsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpHackerNewsService.swift; sourceTree = "<group>"; };
+		ABBAB80825DBC07600C171F8 /* TimeBadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeBadgeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +110,7 @@
 				ABBAB7D125DBA7E200C171F8 /* Resources */,
 				ABBAB7DB25DBA85900C171F8 /* Model */,
 				ABBAB7EE25DBAD7200C171F8 /* ViewModel */,
-				ABBAB7A525DBA7CE00C171F8 /* HackerNewsView.swift */,
+				ABBAB80725DBC06300C171F8 /* View */,
 				ABBAB7A325DBA7CE00C171F8 /* HackerNewsApp.swift */,
 				ABBAB7A925DBA7CF00C171F8 /* Preview Content */,
 			);
@@ -167,6 +169,15 @@
 				ABBAB7FA25DBADA300C171F8 /* HackerNewsViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		ABBAB80725DBC06300C171F8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ABBAB7A525DBA7CE00C171F8 /* HackerNewsView.swift */,
+				ABBAB80825DBC07600C171F8 /* TimeBadgeView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -301,6 +312,7 @@
 				ABBAB7EA25DBAC4300C171F8 /* FakeHackerNewsService.swift in Sources */,
 				ABBAB7A625DBA7CE00C171F8 /* HackerNewsView.swift in Sources */,
 				ABBAB7A425DBA7CE00C171F8 /* HackerNewsApp.swift in Sources */,
+				ABBAB80925DBC07600C171F8 /* TimeBadgeView.swift in Sources */,
 				ABBAB80025DBB37B00C171F8 /* HttpHackerNewsService.swift in Sources */,
 				ABBAB7E525DBA97D00C171F8 /* HackerNewsService.swift in Sources */,
 				ABBAB7DD25DBA86700C171F8 /* Article.swift in Sources */,
