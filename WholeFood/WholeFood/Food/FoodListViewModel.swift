@@ -13,21 +13,32 @@ final class FoodListViewModel: ObservableObject {
     private let foodService: FoodService
     private var subscriptions = Set<AnyCancellable>()
     
-    @Published var food: [FoodModel] = []
+    @Published var food: [FoodViewModel] = []
+    @Published var isLoading = false
+    
+    var selectedFood: FoodViewModel?
     
     init(foodService: FoodService = FakeFoodService()) {
         self.foodService = foodService
+        self.selectedFood = nil
+        refresh()
     }
     
     func refresh() {
+        isLoading = true
         foodService.getFood()
-            .sink(receiveCompletion: onError) {
-                self.food = $0
-            }
+            .sink(receiveCompletion: onComplete, receiveValue: map(foodModel:))
             .store(in: &subscriptions)
     }
     
-    private func onError(_ complition: Subscribers.Completion<Error>) {
+    private func map(foodModel: [FoodModel]) {
+        food = foodModel.map {
+            FoodViewModel(id: $0.id, name: $0.name, description: $0.description, price: $0.price, imageUrl: $0.imageUrl)
+        }
+    }
+    
+    private func onComplete(_ complition: Subscribers.Completion<Error>) {
+        isLoading = false
         if case .failure(let error) = complition {
             print(error)
         }

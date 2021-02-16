@@ -21,6 +21,12 @@
 		ABB860C625DBC9D2003C3E65 /* FakeFoodService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB860C525DBC9D2003C3E65 /* FakeFoodService.swift */; };
 		ABB860D125DBCA99003C3E65 /* FoodService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB860D025DBCA99003C3E65 /* FoodService.swift */; };
 		ABB860DC25DBCC04003C3E65 /* FoodListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB860DB25DBCC04003C3E65 /* FoodListViewModel.swift */; };
+		ABB860E425DBCE22003C3E65 /* FoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB860E325DBCE22003C3E65 /* FoodView.swift */; };
+		ABB860E925DBCE72003C3E65 /* FoodViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB860E825DBCE72003C3E65 /* FoodViewModel.swift */; };
+		ABB860F125DBD90B003C3E65 /* FoodCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB860F025DBD90B003C3E65 /* FoodCardView.swift */; };
+		ABC7F00B25DBE0310036582D /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC7F00A25DBE0310036582D /* ActivityIndicatorView.swift */; };
+		ABC7F01625DBE1450036582D /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC7F01525DBE1450036582D /* LoadingView.swift */; };
+		ABC7F01E25DBE5120036582D /* OrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC7F01D25DBE5120036582D /* OrderViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +67,12 @@
 		ABB860C525DBC9D2003C3E65 /* FakeFoodService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeFoodService.swift; sourceTree = "<group>"; };
 		ABB860D025DBCA99003C3E65 /* FoodService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodService.swift; sourceTree = "<group>"; };
 		ABB860DB25DBCC04003C3E65 /* FoodListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListViewModel.swift; sourceTree = "<group>"; };
+		ABB860E325DBCE22003C3E65 /* FoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodView.swift; sourceTree = "<group>"; };
+		ABB860E825DBCE72003C3E65 /* FoodViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewModel.swift; sourceTree = "<group>"; };
+		ABB860F025DBD90B003C3E65 /* FoodCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCardView.swift; sourceTree = "<group>"; };
+		ABC7F00A25DBE0310036582D /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorView.swift; sourceTree = "<group>"; };
+		ABC7F01525DBE1450036582D /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		ABC7F01D25DBE5120036582D /* OrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,8 +124,8 @@
 			isa = PBXGroup;
 			children = (
 				ABB8609F25DBC4F7003C3E65 /* Resources */,
-				ABB860C425DBC9C1003C3E65 /* Model */,
 				ABB860A725DBC5E6003C3E65 /* Common */,
+				ABB860C425DBC9C1003C3E65 /* Model */,
 				ABB860A025DBC50E003C3E65 /* Profile */,
 				ABB8609E25DBC4F0003C3E65 /* Order */,
 				ABB8609D25DBC4E8003C3E65 /* Food */,
@@ -155,6 +167,9 @@
 			children = (
 				ABB860DB25DBCC04003C3E65 /* FoodListViewModel.swift */,
 				ABB860B525DBC6E2003C3E65 /* FoodListView.swift */,
+				ABB860E825DBCE72003C3E65 /* FoodViewModel.swift */,
+				ABB860E325DBCE22003C3E65 /* FoodView.swift */,
+				ABB860F025DBD90B003C3E65 /* FoodCardView.swift */,
 			);
 			path = Food;
 			sourceTree = "<group>";
@@ -163,6 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				ABB860BA25DBC6F0003C3E65 /* OrderView.swift */,
+				ABC7F01D25DBE5120036582D /* OrderViewModel.swift */,
 			);
 			path = Order;
 			sourceTree = "<group>";
@@ -188,6 +204,8 @@
 			isa = PBXGroup;
 			children = (
 				ABB860A825DBC5F1003C3E65 /* Color+ext.swift */,
+				ABC7F00A25DBE0310036582D /* ActivityIndicatorView.swift */,
+				ABC7F01525DBE1450036582D /* LoadingView.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -332,11 +350,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABB860B625DBC6E2003C3E65 /* FoodListView.swift in Sources */,
+				ABB860F125DBD90B003C3E65 /* FoodCardView.swift in Sources */,
 				ABB860B125DBC6DA003C3E65 /* ProfileView.swift in Sources */,
+				ABB860E925DBCE72003C3E65 /* FoodViewModel.swift in Sources */,
 				ABB860DC25DBCC04003C3E65 /* FoodListViewModel.swift in Sources */,
+				ABB860E425DBCE22003C3E65 /* FoodView.swift in Sources */,
 				ABB860C625DBC9D2003C3E65 /* FakeFoodService.swift in Sources */,
+				ABC7F01E25DBE5120036582D /* OrderViewModel.swift in Sources */,
 				ABB8607225DBC4D3003C3E65 /* WholeFoodTabView.swift in Sources */,
+				ABC7F01625DBE1450036582D /* LoadingView.swift in Sources */,
 				ABB860D125DBCA99003C3E65 /* FoodService.swift in Sources */,
+				ABC7F00B25DBE0310036582D /* ActivityIndicatorView.swift in Sources */,
 				ABB860BB25DBC6F0003C3E65 /* OrderView.swift in Sources */,
 				ABB8607025DBC4D3003C3E65 /* WholeFoodApp.swift in Sources */,
 				ABB860A925DBC5F1003C3E65 /* Color+ext.swift in Sources */,

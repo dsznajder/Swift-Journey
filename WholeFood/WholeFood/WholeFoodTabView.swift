@@ -11,20 +11,23 @@ struct WholeFoodTabView: View {
     
     var body: some View {
         TabView {
-            FoodListView()
+            FoodListView(viewModel: FoodListViewModel())
                 .tabItem {
                     Image(systemName: "list.dash")
+                    Text("Food")
                 }
-            OrderView()
+            OrderView(viewModel: OrderViewModel())
                 .tabItem {
                     Image(systemName: "bag")
+                    Text("Order")
                 }
             ProfileView()
                 .tabItem {
                     Image(systemName: "person")
+                    Text("Profile")
                 }
         }
-        .accentColor(Color("primary"))
+        .accentColor(.primary)
     }
 }
 

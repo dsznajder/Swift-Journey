@@ -10,10 +10,12 @@ import Combine
 struct FakeFoodService: FoodService {
     
     func getFood() -> AnyPublisher<[FoodModel], Error> {
-        CurrentValueSubject<[FoodModel], Error>([
+        Just([
             FoodModel(id: 1, name: "Asparagus Steak", description: "Stejki", price: 12.21, imageUrl: "asparagus-steak"),
             FoodModel(id: 2, name: "Pitca", description: "Pitca zdrowa", price: 32.48, imageUrl: "healthy-pizza")
-        ]).eraseToAnyPublisher()
+        ])
+        .setFailureType(to: Error.self)
+        .eraseToAnyPublisher()
     }
     
 }
