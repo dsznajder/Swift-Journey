@@ -11,7 +11,7 @@ import SwiftUI
 struct WholeFoodApp: App {
     var body: some Scene {
         WindowGroup {
-            WholeFoodTabView()
+            WholeFoodTabView().environmentObject(OrderModel())
         }
     }
 }

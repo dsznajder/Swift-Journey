@@ -13,19 +13,23 @@ struct ProfileView: View {
     
     var body: some View {
         Form {
-            Section(header: Text("Personal info")) {
-                TextField("First name", text: $viewModel.firstName)
-                TextField("Last name", text: $viewModel.lastName)
-                TextField("Email", text: $viewModel.email)
-                    .keyboardType(.emailAddress)
-                    .autocapitalization(.none)
-                    .disableAutocorrection(true)
-                
-                DatePicker("Birthday", selection: $viewModel.birthday, displayedComponents: .date)
-                Toggle("Subscribe", isOn: $viewModel.subscriber)
-                    .toggleStyle(SwitchToggleStyle(tint: .primary))
+            VStack(spacing: 10) {
+                Section(header: Text("Personal info")) {
+                    TextField("First name", text: $viewModel.firstName)
+                    TextField("Last name", text: $viewModel.lastName)
+                    TextField("Email", text: $viewModel.email)
+                        .keyboardType(.emailAddress)
+                        .autocapitalization(.none)
+                        .disableAutocorrection(true)
+                    SecureField("Password", text: $viewModel.password)
+                    SecureField("Password confirmation", text: $viewModel.passwordConfirmation)
+                    
+                    DatePicker("Birthday", selection: $viewModel.birthday, displayedComponents: .date)
+                    Toggle("Subscribe", isOn: $viewModel.subscriber)
+                        .toggleStyle(SwitchToggleStyle(tint: .primary))
+                }
             }
-            
+            .border(viewModel.isValid ? Color(.systemBackground) : Color(.red), width: 0.5)
             if viewModel.subscriber {
                 Section(header: Text("Payment Info")) {
                     TextField("Card Number", text: $viewModel.cardNumber)
@@ -35,8 +39,8 @@ struct ProfileView: View {
                     DatePicker("Expiration Date", selection: $viewModel.cardExpirationDate, displayedComponents: .date)
                 }
             }
-            
         }
+        
     }
 }
 

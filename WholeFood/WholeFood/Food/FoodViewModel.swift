@@ -19,4 +19,7 @@ struct FoodViewModel: Identifiable {
         "\(price) zł"
     }
     
+    var orderEntry: OrderEntryModel {
+        OrderEntryModel(id: id, name: name, price: price)
+    }
 }
