@@ -37,7 +37,7 @@ final class FoodListViewModel: ObservableObject {
         }
     }
     
-    private func onComplete(_ complition: Subscribers.Completion<Error>) {
+    private func onComplete(_ complition: Subscribers.Completion<HttpClientError>) {
         isLoading = false
         if case .failure(let error) = complition {
             print(error)
